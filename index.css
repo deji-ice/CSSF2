@@ -1,0 +1,26 @@
+#square1, #square2 , #square3{
+    height: 100px;
+    width: 100px;
+    background: greenyellow;
+    text-align: center;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+#square2:hover{
+background-color: brown;
+height: 70px;
+width: 70px;
+cursor: pointer;
+}
+
+
+.container{
+    height: 400px;
+    width: 400px;
+    background-color: beige;
+}
+
+.square,.container{
+    border-radius: 20px;
+}
